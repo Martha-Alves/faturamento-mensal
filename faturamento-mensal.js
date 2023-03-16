@@ -34,12 +34,12 @@ function faturamentoMensal() {
     return "O menor valor de faturamente ocorrido em um dia do mês foi R$" + menor + ",00 e o maior valor foi R$" + maior + ",00. O valor de faturamento diário foi superior à média mensal em aproximadamente " + diasAcima + " dias. Houve um total de " + diasSem + " dias que não existiu faturamento.";
 }
 
-console.log(faturamentoMensal())
+console.log(faturamentoMensal()) //exibe: O menor valor de faturamente ocorrido em um dia do mês foi R$30,00 e o maior valor foi R$1648,00. O valor de faturamento diário foi superior à média mensal em aproximadamente 5 dias. Houve um total de 10 dias que não existiu faturamento.
 
 
 
 
-//Durante a entrevista não consegui desenvolver essa questão direito. Então decidi refazê-la do jeito certo.
+//Durante a entrevista não consegui desenvolver essa questão direito, então decidi refazê-la do jeito certo.
 
 //3) Dado um vetor que guarda o valor de faturamento diário de uma distribuidora, faça um programa, na linguagem que desejar, que calcule e retorne:
 // • O menor valor de faturamento ocorrido em um dia do mês;
